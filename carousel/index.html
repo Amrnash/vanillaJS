@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/93d89fef4c.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Carousel</title>
+  </head>
+  <body>
+    <div class="carousel">
+      <div class="carousel__slides-container">
+        <ul class="carousel__slides">
+          <li class="carousel__slides__item current-slide">
+            <img src="./images/01.jpg" />
+          </li>
+          <li class="carousel__slides__item"><img src="./images/02.jpg" /></li>
+          <li class="carousel__slides__item"><img src="./images/03.jpg" /></li>
+        </ul>
+      </div>
+      <button class="carousel__btn carousel__btn--left">
+        <i class="fas fa-chevron-left"></i>
+      </button>
+      <button class="carousel__btn carousel__btn--right">
+        <i class="fas fa-chevron-right"></i>
+      </button>
+    </div>
+    <div class="nav-dots">
+      <button class="nav-dots__btn current-dot"></button>
+      <button class="nav-dots__btn"></button>
+      <button class="nav-dots__btn"></button>
+    </div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
